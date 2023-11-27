@@ -7,7 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 // import my page components
 import Episodes from './pages/Episodes';
 import Home from './pages/Home';
-import Characters from './pages/Characters';
+import Characters from './pages/allCharacters';
 // import my components
 import Nav from './components/Nav';
 
