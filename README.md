@@ -1,6 +1,6 @@
 Rick and Morty 
 
-Rick and Morty Wire Frame 
+Wire Frame 
 ![Rick and Morty wireframe](https://github.com/Mbwood92/Project2/assets/146128694/a2a41d81-2c6a-486b-9e0b-444362e3824b)
 
 
