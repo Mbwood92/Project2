@@ -3,7 +3,14 @@ import { Link } from "react-router-dom";
 function Data(props) {
  
     const cartoons = [
-  
+        {
+            "info": {
+              "count": 826,
+              "pages": 42,
+              "next": "https://rickandmortyapi.com/api/character/?page=2",
+              "prev": null
+            },
+            "results": [
     {
     "id": 1,
     "name": "Rick Sanchez",
@@ -667,7 +674,8 @@ function Data(props) {
     "created": "2017-11-04T22:34:53.659Z"
 }
     ]
-    
+}
+    ]
     
   
   
