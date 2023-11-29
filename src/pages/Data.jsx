@@ -677,27 +677,9 @@ function Data(props) {
 }
     ]
     
+}
   
   
   
-  
-  
-  
-    return (
-    <div className="allshows">
-            {stocks.map((show, index) => {
-              const { name, symbol } = stock;
-              return (
-                <Link to={`/show/${symbol}`} key={index}>
-                  <h2>{season}</h2>
-                  <h3>{episode}</h3>
-                </Link>
-              );
-            })}
-          </div>
-        );
-      }
-    
-
 
 export default Data

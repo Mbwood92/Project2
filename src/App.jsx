@@ -6,11 +6,12 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom';
 // import my page components
 import Episodes from './pages/Episodes';
-import Home from './pages/Home';
-import Characters from './pages/allCharacters';
+import Characters from './pages/Characters';
+import Location from './pages/Location';
+
 // import my components
 import Nav from './components/Nav';
-
+//import Results from './components/Results'
 
 function App() {
  
@@ -22,10 +23,9 @@ return (
     <div className='App'>
       <Nav />
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<Characters/>} />
         <Route path='/episodes' element={<Episodes/>} />
-        <Route path='/characters' element={<Characters/>} />
-
+        <Route path='/location' element={<Location/>} />
       </Routes>
       </div>
   )
