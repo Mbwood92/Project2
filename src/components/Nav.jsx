@@ -6,11 +6,11 @@ export default function Nav (props){
       <Link to="/">
         <div>Characters</div>
       </Link>
-      <Link to="/characters">
-        <div>Location</div>
-      </Link>
-      <Link to="/episodes">
+     <Link to="/episodes">
         <div>Episodes</div>
+      </Link>
+      <Link to="/location">
+        <div>Location</div>
       </Link>
       </div>
   );
