@@ -7,7 +7,7 @@ function Location() {
     const [infoData, setInfoData] = useState(null);
     
       // fetch data from website 
-      const getSreach = async () => {
+      const getSearch = async () => {
         const url = `https://rickandmortyapi.com/api/location/`;
         try {
           const response = await fetch(url);
@@ -20,7 +20,7 @@ function Location() {
       };
     //fetch the data onto my react 
       useEffect(() => {
-        getSreach();
+        getSearch();
       }, []);
     // renders
       return (
