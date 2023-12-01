@@ -7,7 +7,10 @@ function CharacterData({ infoData }) {
 //rendering using map function 
   return (
     <div>
-        <h1>List of Rick and Morty Characters</h1>
+        <div 
+    style={{ color: 'darkgreen', fontSize: '24px', fontFamily: 'Comic Sans MS, cursive', textAlign: 'center' }}>
+  Rick & Morty
+</div>
         {mydata.map(character => (
             <div key={character.id} className="card">
                 <img className="card-image"

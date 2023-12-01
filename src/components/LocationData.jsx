@@ -7,13 +7,17 @@ function LocationData({ infoData }) {
 //rendering using map function 
   return (
     <div>
-        <h1>List of Rick and Morty Episodes</h1>
+        <div 
+    style={{ color: 'darkgreen', fontSize: '24px', fontFamily: 'Comic Sans MS, cursive', textAlign: 'center' }}>
+  Locations
+</div>
         {mydata.map(location => (
-            <div key={location.id} className="card">
+            <div key={location.id} className="l-card">
               <div className="font">
                <h2 style={{ color: 'green' }}>Location: {location.name}</h2>
                 <h4>Type: {location.type}</h4>
                 <h4>Demension: {location.dimension}</h4>
+                <h4>Created:{location.created}</h4>
               </div>
                </div>
 

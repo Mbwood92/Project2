@@ -6,8 +6,8 @@ function Episodes() {
   // add state to hold the data of the form
       const [infoData, setInfoData] = useState(null);
     
-    // fetch data from nasa website 
-      const getSreach = async (keyword) => {
+    // fetch data from episode website 
+      const getSearch = async (keyword) => {
         const url = `https://rickandmortyapi.com/api/episode/`;
         try {
           const response = await fetch(url);
@@ -20,15 +20,15 @@ function Episodes() {
       };
     //fetch the data onto my react 
       useEffect(() => {
-        getSreach();
+        getSearch();
       }, []);
     // renders
       return (
         <>
-       
-        {infoData ? <EpisodeData infoData={infoData} /> : "loading...."}
-        </>
+   
+        {infoData ? <EpisodeData infoData={infoData} /> : "loading...."} 
+        </> //The component must return some JSX
       );
     }
-export default Episodes
+export default Episodes // We must export the component to use it in other files
 
