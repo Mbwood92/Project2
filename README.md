@@ -7,7 +7,8 @@ Here is an wikipedia made just for the show Rick and Morty created in React. The
 https://meek-mochi-a57d03.netlify.app/
 
 Wire Frame 
-![Rick and Morty wireframe](https://github.com/Mbwood92/Project2/assets/146128694/a2a41d81-2c6a-486b-9e0b-444362e3824b)
+![Wireframe Rick and Morty](https://github.com/Mbwood92/Project2/assets/146128694/1926b0ac-d2f9-4b60-8ee5-fd432a94e0ef)
+
 
 
 # React + Vite
