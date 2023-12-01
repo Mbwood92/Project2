@@ -1,5 +1,9 @@
 Rick and Morty 
 
+"Rick and Morty is the Emmy award-winning half-hour animated hit comedy series on Adult Swim that follows a sociopathic genius scientist who drags his inherently timid grandson on insanely dangerous adventures across the universe." -Warner Bros. 
+
+Here is an wikipedia made just for the show Rick and Morty. It has cards for all your favorite characters, episodes, and more. 
+
 Wire Frame 
 ![Rick and Morty wireframe](https://github.com/Mbwood92/Project2/assets/146128694/a2a41d81-2c6a-486b-9e0b-444362e3824b)
 
