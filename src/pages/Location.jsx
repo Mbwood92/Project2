@@ -1,26 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
 import LocationData from "../components/LocationData";
 
 function Location() {
   // add state to hold the data of the form
-    const [formData, setFormData] = useState({
-        searchterm: "",
-      });
-      const [infoData, setInfoData] = useState(null);
-    
-      //handleChange - updates formData when we type into form
-      const handleChange = (event) => {
-       //use the event object to detect key and value to update
-        setFormData({ ...formData, [event.target.name]: event.target.value });
-      };
-    
-      const handleSubmit = (event) => {
-        // prevent page from refreshing on form submissin
-        event.preventDefault();
-        getSreach(formData.searchterm);
-      };
+    const [infoData, setInfoData] = useState(null);
     
       // fetch data from website 
       const getSreach = async () => {
@@ -29,6 +13,7 @@ function Location() {
           const response = await fetch(url);
           const data = await response.json();
           setInfoData(data);
+          console.log(data)
         } catch (e) {
           console.error(e);
         }
@@ -40,18 +25,7 @@ function Location() {
     // renders
       return (
         <>
-         <div>Location</div> 
-          <div>
-            <form onSubmit={handleSubmit}>
-              <input
-                type="text"
-                name="searchterm"
-                onChange={handleChange}
-                value={formData.searchterm}
-              />
-              <input type="submit" value="submit" />
-            </form>
-          </div>
+
           {infoData ? <LocationData infoData={infoData} /> : "loading...."}
         </>
       );

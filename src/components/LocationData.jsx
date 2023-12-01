@@ -10,13 +10,11 @@ function LocationData({ infoData }) {
         <h1>List of Rick and Morty Episodes</h1>
         {mydata.map(location => (
             <div key={location.id} className="card">
-                <img className="card-image"
-                 src={location.image} alt={location.name} />
-                <h2>Name: {location.name}</h2>
+              <div className="font">
+               <h2 style={{ color: 'green' }}>Location: {location.name}</h2>
                 <h4>Type: {location.type}</h4>
                 <h4>Demension: {location.dimension}</h4>
-                <h4>Residents: {location.residents}</h4>
-               
+              </div>
                </div>
 
         
