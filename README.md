@@ -4,7 +4,7 @@ Rick and Morty
 
 Here is an wikipedia made just for the show Rick and Morty created in React. The data fetch came from the API website "https://rickandmortyapi.com/". On my website you will see a display of cards for all your favorite characters, episodes, and more. Link on the link below.
 
-https://meek-mochi-a57d03.netlify.app/
+https://sunny-dasik-e73572.netlify.app
 
 Wire Frame 
 ![Wireframe Rick and Morty](https://github.com/Mbwood92/Project2/assets/146128694/1926b0ac-d2f9-4b60-8ee5-fd432a94e0ef)
